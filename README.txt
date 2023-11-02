@@ -23,3 +23,15 @@ correctness of the calculateTravelTime method in the Elevator class.
 
 Feel free to modify the test cases or the Elevator class as needed to adapt to your specific requirements.
 
+Assumptions
+    1.) There's only a single elevator in operation
+    2.) There are no additional elevator requests coming through while the elevator is operating
+    3.) The floors are traversed in the order given, travel time does not need to be improved
+    4.) Traveling between the same floors has no travel time
+    5.) Array length and floors provided won't exceed max size limits
+
+Features to add:
+    1.) Improve elevator travel time by sorting floors to visit
+    2.) Add support for requests made inside an elevator
+    3.) Support multiple and subsequent requests
+    4.) Add additional elevators and shared communication between them

@@ -40,12 +40,6 @@ public class Main {
 
         scanner.close();
 
-        /* Assumptions about the elevator
-            1.) There's only a single elevator in operation
-            2.) There are no additional elevator requests coming through while the elevator is operating
-            3.) The floors are traversed in the order given, travel time does not need to be improved
-         */
-
         Elevator firstElevator = new Elevator();
         final String moveTime = Integer.toString(firstElevator.calculateTravelTime(listOfFloors));
         System.out.println(moveTime + " " + listOfFloors);
