@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jlink" name="ElevatorChace">
+    <output-path>$PROJECT_DIR$/out/artifacts/ElevatorChace</output-path>
+    <root id="root" />
+  </artifact>
+</component>
